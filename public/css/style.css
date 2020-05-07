@@ -1,0 +1,66 @@
+/* 全体 */
+body {
+    /* 背景画像　*/
+    background-image: url(../images/blackboard.jpeg);
+    
+    /* 背景画像のサイズ */
+    background-size: cover;
+}
+
+/* containerクラス */
+.container {
+    /* 幅 */
+    width: 400px;
+    
+    /* 高さ */
+    height: 300px;
+    
+    /* 文字を中央寄せ　*/
+    text-align: center;
+    
+    /* 枠線　*/
+    border: 1px solid white;
+    
+    /* 余白 */
+    margin: 10% auto;
+    padding: 20px;
+    
+    /* 文字色 */
+    color: #ececec;
+    
+    /* 背景色 */
+    background: #323232;
+}
+
+/* h3タグ */
+h3 {
+    /* 余白 */
+    margin: 30px;
+    
+    /* 字体 */
+    font-family: 'Lobster Two', cursive;
+    
+    /* 文字の大きさ */
+    font-size: 40px;
+}
+
+/* buttonタグ　*/
+button {
+    /* 余白 */
+    margin: 40px;
+    
+    /* 枠の角を丸くする */
+    border-radius: 30px;
+    
+    /* 高さ */
+    height: 40px;
+    
+    /* 幅 */
+    width: 100px;
+}
+
+/* マウスをボタンにかざしたとき */
+button:hover {
+    /* 不透明度 */
+    opacity: 0.6;
+}

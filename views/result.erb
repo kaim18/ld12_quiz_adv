@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>クイズアプリ</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+  </head>
+  <body>
+    <div class="container">
+      <h3>Life is Tech! Quiz</h3>
+      <p>あなたは、<%= @questions.length %>問中<%= @score.to_s %>問正解でした！</p>
+      <a href="/"><button>もう一度挑戦！</button></a>
+    </div>
+  </body>
+</html>
